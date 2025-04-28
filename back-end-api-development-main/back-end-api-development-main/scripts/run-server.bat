@@ -1,0 +1,1 @@
+powershell start-process powershell {cd "(new-object system.io.directoryinfo %cd%/).parent.fullname;" php -S 127.0.0.101:80} -verb runas
